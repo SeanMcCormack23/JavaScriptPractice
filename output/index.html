@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>JS Output</title>
+</head>
+
+<body>
+  <h2>JavaScript Functions in Action</h2>
+  <section>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+  </section>
+
+  <section>
+    <!-- event handler, when the button is clicked the demo4 p tag is changed. -->
+    <button onclick="document.getElementById('demo4').innerHTML = Date()">
+      Click Here to show the date and time
+    </button>
+    <p id="demo4"></p>
+
+    <button onmouseover="document.getElementById('demo5').innerHTML = 'Hello Mate! This will disappear when you remove the mouse due to the onmouseout event'" 
+    onmouseout="document.getElementById('demo5').innerHTML = ''">Hover here!</button>
+    <p id="demo5"></p>
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

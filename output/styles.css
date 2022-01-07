@@ -1,0 +1,21 @@
+body {
+  background-color: #ccc;
+}
+button {
+  margin: 10px 10px;
+  padding: 8px 16px;
+}
+section {
+  padding: 20px 15px;
+  margin: 10px 10px;
+  border: 2px solid;
+  border-radius: 5px;
+  width: 45%;
+  float: left;
+  
+}
+@media screen and (max-width="400px") {
+  section {
+    width: 100%;
+  }
+}
