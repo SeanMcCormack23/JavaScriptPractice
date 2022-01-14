@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #ccc;
+}
+.productImage {
+  margin: inherit;
+}
+.box {
+  width: auto;
+  height: auto;
+  border: 2px solid;
+  display: inline-block;
+}
+.product {
+  width: 400px;
+  height: auto;
+  margin: 20px;
+  text-align: center;
+}
+#cartBtns {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+#list {
+  border: 2px solid;
+}
+.cartContainer {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  border: 2px solid;
+  padding: 8px 4px;
+}
