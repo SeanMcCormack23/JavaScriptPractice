@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #ccc;
+}
+.productImage {
+  margin: inherit;
+}
+.box {
+  border: 2px solid;
+  display: inline-block;
+}
+.product {
+  width: 400px;
+  height: auto;
+  margin: 20px;
+  text-align: center;
+}
+#cartBtns {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+#list {
+  border: 2px solid;
+}
+.cartContainer {
+  display: flex;
+  justify-content: center;
+  /* padding: 8px 4px; */
+}
+h3 { 
+  text-align: center;
+}
+.cartText {
+  text-align: center;
+}
