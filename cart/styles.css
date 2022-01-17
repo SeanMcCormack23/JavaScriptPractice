@@ -8,8 +8,6 @@ body {
   margin: inherit;
 }
 .box {
-  width: auto;
-  height: auto;
   border: 2px solid;
   display: inline-block;
 }
@@ -28,9 +26,13 @@ body {
   border: 2px solid;
 }
 .cartContainer {
-  display: inline-block;
-  width: auto;
-  height: auto;
-  border: 2px solid;
-  padding: 8px 4px;
+  display: flex;
+  justify-content: center;
+  /* padding: 8px 4px; */
+}
+h3 { 
+  text-align: center;
+}
+.cartText {
+  text-align: center;
 }
