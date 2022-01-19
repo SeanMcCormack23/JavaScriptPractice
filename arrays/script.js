@@ -9,6 +9,7 @@ var tag2 = document.getElementById("demo2");
 var tag2b = document.getElementById("demo2b"); var tag3 = document.getElementById("demo3");
 var tag4 = document.getElementById("demo4"); var tag5 = document.getElementById("demo5"); var tag6 = document.getElementById("demo6");
 var tag7 = document.getElementById("demo7");var tag8 = document.getElementById("demo8");var tag9 = document.getElementById("demo9");var tag9b = document.getElementById("demo9b");var tag10 = document.getElementById("demo10");
+var tag11 = document.getElementById("one");
 
 //we can display each value i the array with a for loop but a better way is with the toString method
 
@@ -51,3 +52,12 @@ tag9b.innerHTML = names.toString() +  " &nbsp: The original array is still intac
 var evenShorter = names.slice(1,3);
 tag10.innerHTML = evenShorter.toString();
 
+//syntax for creating an object 
+const cars = [
+  {type: "bmw", model: 350},
+  {type: "saab", model: 790},
+  {type: "merc", model: 3}
+];
+//how to display to contents of an object
+//need to specify the values to display (type/model)
+tag11.innerHTML = cars[0].type + " " + cars[0].model;
